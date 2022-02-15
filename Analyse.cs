@@ -54,6 +54,7 @@ namespace Components
                             }
                         }
                     }
+                    //Проверка ОГРН
                     else if (converted != null && converted.Length == 13)
                     {
                         switch (converted[0])
